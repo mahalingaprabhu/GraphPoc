@@ -142,8 +142,8 @@ ON MATCH  SET r.count = r.count + 1
 
 After chatting about multiple topics, the Neo4j graph looks like this:
 
-![Neo4j Fragmented KG](ollama-langgraph-chat/KG.png)
-![Neo4j User ego KG](ollama-langgraph-chat/ego_graph.png)
+![Neo4j Fragmented KG](GraphPoc/ollama-langgraph-chat/KG.png)
+![Neo4j User ego KG](GraphPoc/ollama-langgraph-chat/ego_graph.png)
 
 This is **intentionally raw**. You can see:
 
@@ -215,7 +215,7 @@ full_system = SYSTEM_PROMPT + "\n\n" + memory_context
 
 The result — the agent responds as if it naturally knows your context:
 
-![Agent Response with Memory](ollama-langgraph-chat/agent_with_memory.png)
+![Agent Response with Memory](GraphPoc/ollama-langgraph-chat/agent_with_memory.png)
 
 Notice how when asked *"Tell me about Thekkady"*, the agent:
 - Knew you were **planning to visit** (not just curious)
