@@ -1,0 +1,4 @@
+streamlit>=1.35.0
+langchain-ollama>=0.1.0
+langgraph>=0.2.0
+langchain-core>=0.2.0
